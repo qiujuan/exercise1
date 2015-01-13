@@ -1,0 +1,38 @@
+@import "../define"
+
+#header
+  background-color: $top-bar-background-color
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  padding-top: $ios-gap
+
+  h2
+    color: $white
+    font:
+      size: 18px
+      weight: normal
+    line-height: $top-bar-height
+    margin: 0
+    text-align: center
+
+  button
+    background-color: $top-bar-background-color
+    border: none
+    color: $white
+    width: $top-bar-height
+    height: $top-bar-height
+    line-height: $top-bar-height
+    text-align: center
+    font-size: 18px
+    padding: 0
+    margin: 0
+    top: $ios-gap
+    position: absolute
+
+    &.toggle-button
+      left: 0
+
+    &.edit-button
+      right: 0
